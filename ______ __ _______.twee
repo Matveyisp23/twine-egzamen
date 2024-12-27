@@ -1,0 +1,1349 @@
+:: StoryTitle
+Сборка на экзамен
+
+
+:: StoryData
+{
+  "ifid": "0CDB49CF-9E84-4FE0-BEB3-BBD71BE25ED2",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Menu",
+  "zoom": 1
+}
+
+
+:: Menu {"position":"1825,200","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 400px; height: aute; top:100px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  (set:$fio to(prompt:"Как вас зовут?",""))
+    <p>(text-colour:white)[Здравствуйте $fio, меня зовут Матвей, я ваш консультант на сегодня, готовы приступить к сборке вашего компьютера, для информационной безопасности? ]
+    
+    
+    (text-colour:green) [[Да, вперед!]]
+    (text-colour:red) [[Нет, не хочу ->закрыть]]
+    
+    
+</p>
+
+
+:: Блок питания (PSU) {"position":"1650,1000","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/7891324f-22aa-4e00-bf53-d84f3d7377d2/o54.png-256-preview@275x275.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/ejmJ0Ia"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Блок питания Xpg KYBER, 650W, 80+ Gold (KYBER650G-BKCEU)
+Цена - 9 720 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Корпус]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Блок питания (PSU) (25) {"position":"725,600","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/a0cd6f41-3e29-4f13-92ac-1939404de090/optimize%20(35).png-256-preview@258x258.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/raxjitu"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Блок питания Aerocool ATX 450W VX PLUS 450W (24+4+4pin) 120mm fan 2xSATA RTL
+Цена - 3 000₽ (за 1шт), 75 000₽ (за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Корпус (25)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Блок питания (PSU) (бюдж) {"position":"1125,1125","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/49e6fca8-739b-48a2-b1bc-006c97b8c37f/xtc500rear_2027348512.png-256-preview@450x325.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/ne37UdH"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Блок питания COUGAR 500W XTC500 Bulk
+Цена - 4 940 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Корпус (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Видеокарта (GPU) {"position":"2125,975","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/2a8ee95d-3375-4174-909f-250bd9d84405/resize-image-online.com_1735228703_100030828548b0-pbijd_qQzvFXqT.png-256-preview@505x505.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/upB0rxk"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Видеокарта Asus GeForce RTX 3050 DUAL OC V2 8G
+Цена - 32 565 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Накопитель (SSD)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+
+:: Видеокарта (GPU) (бюдж) {"position":"1475,1075","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/f7c4a906-5a84-4c4a-8009-04eb6a80bb74/optimize%20(12).png-256-preview@400x400.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/OnSiFvN"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Игровая дискретная видеокарта GIGABYTE RX6600 емкостью 8 ГБ с тремя вентиляторами
+Цена - 21 160 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Накопитель (SSD) (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Да, вперед! {"position":"1550,275","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt= style= "width: 400px; height: aute; top:100px;"/>
+
+  <div class="transparent-box">
+  
+*(text-colour:green) [[Начать сборку]]*
+*(text-colour:green)[[Финансы]]*
+*(text-colour:green)[[Уйти->закрыть]]*
+</p>
+
+
+:: Да, еще буду пользоваться вашими услугами! {"position":"1350,525","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  [Большое спасибо за отзыв, будем ждать вас снова!]
+  ___________________________________________________________________________________________
+  
+    (text-colour:green)[[Уйти->Закрыть ]]
+
+
+
+:: Закрыть\  {"position":"1825,450","size":"100,100"}
+<script>
+window.close();
+</script>
+
+
+:: Итог {"position":"1525,500","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  [Вам все понравилось?]
+  _____________________________________________________________________________________________
+  (text-colour:green)[[Да, еще буду пользоваться вашими услугами!]]
+  (text-colour:green)[[Нет, мне не понравились ваши услуги]]
+
+
+
+:: Итого {"position":"800,125","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  [Итого вышло за 1 компьютер: 39 598₽]
+  [А за 25 компьютеров: 989 950₽]
+  (text-colour:green)[[Меню->Да, вперед!]]
+  
+
+
+:: Клавиатура {"position":"300,675","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://avatars.mds.yandex.net/get-mpic/4055688/img_id7346416825879176721.png/optimize" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/LDS6U7R"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Клавиатура механическая русская Wolf K3 игровая с подсветкой проводная для компьютера ноутбука Gaming/game keyboard usb светящаяся
+Цена -  5 282₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Монитор]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Клавиатура (25) {"position":"875,1125","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/dcfad36a-aca5-48f5-a4b6-c484ad7025c0/optimize%20(29).png-256-preview@321x213.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/Kjtajmw"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Клавиатура для компьютера проводная Defender Accent SB-720 RU, влагоустойчивая, компактная
+Цена - 487 ₽(за 1шт), 12 175 ₽(за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Монитор (25)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Клавиатура (бюдж) {"position":"450,1050","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/dcfad36a-aca5-48f5-a4b6-c484ad7025c0/optimize%20(29).png-256-preview@321x213.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/Kjtajmw"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Клавиатура для компьютера проводная Defender Accent SB-720 RU, влагоустойчивая, компактная
+Цена - 487 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Монитор (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Корпус {"position":"1650,850","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/93840396-f57c-4e51-afb6-46d6997d9144/78.png-256-preview@500x500.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/ZjQRgxH"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Корпус ZALMAN I3 NEO
+Цена - 6 329 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Охлаждение]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Корпус (25) {"position":"725,450","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/93617fae-50f1-4604-be4f-b20b96f6178c/optimize%20(36).png-256-preview@264x297.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/iwIzF2F"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Корпус mATX Aerocool CS-107-A-BK-v1, Mini-Tower, без БП, черный
+Цена - 3 564₽ (за 1шт), 89 100₽ (за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Охлаждение]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Корпус (бюдж) {"position":"1050,975","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/1396811a-6fe4-407a-8069-0ef67b045be9/optimize%20(17).png-256-preview@500x500.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/HMLGV2G"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Корпус Ginzzu V100 mATX кубик, закаленное стекло
+Цена - 4 217 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Охлаждение (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Купить сборку 25 компьютеров {"position":"950,325","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  (text-colour:green)[[Процессор (CPU) (25)]]
+  (text-colour:green)[[Материнская плата (Motherboard) (25)]]
+  (text-colour:green)[[Оперативная память (RAM) (25)]]
+  (text-colour:green)[[Накопитель (SSD) (25)]]
+  (text-colour:green) [[Накопитель (HDD) (25)]]
+  (text-colour:green)[[Блок питания (PSU) (25)]]
+  (text-colour:green)[[Корпус (25)]]
+  (text-colour:green)[[Охлаждение (25)]]
+  (text-colour:green)[[Итого]]
+  (text-colour:green)[[Меню->Да, вперед!]]
+
+
+:: Материнская плата (Motherboard) {"position":"2200,700","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/25b245f1-735e-4639-84bb-a4902d81eae0/intel%20(1).png-256-preview@500x401.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/m54Ejlf"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Материнская плата MSI PRO Z790-P WIFI представительница профессиональной серии. Она создана для обеспечения продуктивности и надежности в ресурсоемких программах. Плата выполнена в полноразмерном форм-факторе. Для подключения комплектующих реализованы 4 слота под установку до 256 ГБ оперативной памяти стандарта DDR5, слоты расширения PCI-E x16 и PCI-E x1, 4 разъема M.2 и 6 слотов SATA для накопителей.
+Интегрированный модуль с поддержкой Wi-Fi и Bluetooth обеспечивает стабильную беспроводную связь. Для проводной синхронизации с Интернетом предлагается коннектор LAN 2.5 Гбит/с. На панели ввода/вывода расположены порты USB, видеовыходы DisplayPort и HDMI, разъемы аудио. Материнская плата MSI PRO Z790-P основана на надежных компонентах и гарантирует бесперебойную работу системы ПК.
+Цена - 25 000 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Оперативная память (RAM)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Материнская плата (Motherboard) (25) {"position":"1175,400","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/609da4cc-b9ef-42b4-87b1-d01d4fd9c0d4/optimize%20(33).png-256-preview@500x500.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/1nh99Ob"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Материнская плата Gigabyte H510M H V2 (LGA1200, mATX)
+Цена - 7 140₽ (за 1шт), 178 500₽ (за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Оперативная память (RAM) (25)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Материнская плата (Motherboard) (бюдж) {"position":"1450,800","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/b1810008-6a87-40b4-94f9-51e0a4a92090/optimize%20(8).png-256-preview@275x275.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/W9tmixc"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Материнская плата Asrock B450M-HDV R4.0 (AM4, microATX)
+Цена - 7 005 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Оперативная память (RAM) (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Монитор {"position":"150,475","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/14f902c5-49c0-4609-937b-022308d45c94/optimize%20(23).png-256-preview@325x325.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/5SEpYG8"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Монитор игровой Thunderobot Silver Wing LF27F165L
+Цена - 18 809 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Меню->Таблица доп. устройств]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Монитор (25) {"position":"675,1275","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/65dfce06-19b5-4410-a56c-2fd0080f0f62/optimize%20(32).png-256-preview@500x500.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/6cPPZWp"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Монитор Mucai 21,5 дюйма, 1K, 75Гц, IPS матрица, 2мс, 250Кд/м², черный, VESA 75х75
+Цена - 6 690 ₽(за 1шт), 334 500 ₽ (за 50шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[меню->Таблица доп. устройств]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Монитор (бюдж) {"position":"175,1075","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://avatars.mds.yandex.net/get-mpic/4055688/2a00000192231cb6c1f85e5bd2aed38611b8/optimize" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/UkEWwOF"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Монитор Xiaomi Redmi Display X24A 23.8 inch 75Hz (A24FBA-RX) Black CN
+Цена - 8 808 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Меню->Таблица доп. устройств]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Мышь {"position":"350,300","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/47ed4672-9c0d-410e-be5c-9c5786c00e2f/optimize%20(19).png-256-preview@433x450.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/zNFMC23"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Мышь Logitech G304 Lightspeed, черный (910-005286)
+Цена -  4 156₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Клавиатура]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Мышь (25) {"position":"725,1075","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/d9c1e809-0f89-4705-818e-42c9b4032062/optimize%20(31).png-256-preview@272x286.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/qrBDLSM"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Компьютерная мышь / проводная / оптическая / для офиса
+Цена -  223₽(за 1шт), 5 575 ₽(за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Клавиатура (25)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Мышь (бюдж) {"position":"250,875","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/0a2478cb-e9b7-4fd2-8427-9d960db5d17a/optimize%20(27).png-256-preview@251x271.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/i2Qn0qj"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Игровая мышь Logitech G G102 Lightsync, черный
+Цена -  1 970₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Клавиатура (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Накопитель (HDD) {"position":"1800,1075","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/8fbeff02-af55-40fe-96dd-f4fbb074b0bd/optimize%20(15).png-256-preview@165x256.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/18ttq44"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Жесткий диск Seagate 1Tb (ST1000DM010)
+Цена - 4 939 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Блок питания (PSU)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Накопитель (HDD) (25) {"position":"850,600","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/8fbeff02-af55-40fe-96dd-f4fbb074b0bd/optimize%20(15).png-256-preview@165x256.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/18ttq44"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Жесткий диск Seagate 1Tb (ST1000DM010)
+Цена - 4 939 ₽(за 1шт), 123 475₽ (за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Блок питания (PSU) (25)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Накопитель (HDD) (бюдж) {"position":"1275,1075","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/8fbeff02-af55-40fe-96dd-f4fbb074b0bd/optimize%20(15).png-256-preview@165x256.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/18ttq44"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Жесткий диск Seagate 1Tb (ST1000DM010)
+Цена - 4 939 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Блок питания (PSU) (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Накопитель (SSD) {"position":"1975,1050","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/2e7c5818-7916-4e5b-800a-daf0de62c769/%D0%BF%D0%BB%D0%B0%D1%88%D0%BA%D0%B0.png-256-preview@300x88.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://www.citilink.ru/product/ssd-nakopitel-wd-black-sn850x-wds100t2x0e-1tb-m-2-2280-pcie-4-0-x4-nvm-1910763/?referrer=reattribution%3D1&utm_term=split&utm_medium=cpc&utm_campaign=cities_regions-srch-cat-perfomans-epk_dsa_cpa&utm_source=yandex&utm_content=|c:112166665|g:5461454798|b:1844723647668166336|k:52261639689|st:search|a:no|s:none|t:premium|p:1|r:52261639689|dev:desktop|cgci:0|adsformat:{adformat}&yclid=4427159154194644991#vmeste-deshevle"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[SSD накопитель WD Black SN850X WDS100T2X0E 1ТБ, M.2 2280, PCIe 4.0 x4, NVMe, M.2
+Цена - 12990 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Накопитель (HDD)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Накопитель (SSD) (25) {"position":"1000,625","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/81a98f08-624e-4e40-9d6b-0a0cf0c1bd74/6717382291.png-256-preview@380x225.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/WOO9ynM"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Накопитель SSD Kingston 256GB, M.2, OM8PDP3256B-A01, OEM
+Цена - 2 465₽ (за 1шт), 61 625₽ (за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Накопитель (HDD) (25)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Накопитель (SSD) (бюдж) {"position":"1375,1175","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/9d57023a-3fac-4095-9575-8c4a12e90cbb/optimize%20(14).png-256-preview@300x241.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/UiDZMtb"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[SSD диск Adata M.2 2280 512 Гб PCIe 4.0 x4 (ALEG-850-512GCS)
+Цена - 5 663 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Накопитель (HDD) (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Начать сборку {"position":"1700,350","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt= style= "width: 400px; height: aute; top:100px;"/>
+
+  <div class="transparent-box">
+  
+(text-colour:green)[[Покупка комплектующих для рекламного сигмента]]
+(text-colour:green)[[Покупка комплектующих бюджетного сигмента]]
+(text-colour:green)[[Купить сборку 25 компьютеров]]
+(text-colour:green)[[Таблица доп. устройств]]
+(text-colour:green)[[Итог]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p> 
+
+
+
+:: Нет, мне не понравились ваши услуги {"position":"1650,500","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  [Большое спасибо за отзыв, нам жаль что мы не смогли вам помочь.]
+  ___________________________________________________________________________________________
+  
+    (text-colour:green)[[Уйти->Закрыть ]]
+
+
+:: Оперативная память (RAM) {"position":"2125,850","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/efa34965-245e-4050-a063-08a3bf6c819a/%D0%BE%D0%BF%D0%B5%D1%80%D0%B0.png-256-preview@275x275.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/bbZz2U4"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Оперативная память Kingston DDR5 32Gb (2х16Gb) 5600Mhz PC-44800 CL36 FURY Beast Black EXPO (KF556C36BBEK2-32)
+Цена - 16375 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Видеокарта (GPU)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Оперативная память (RAM) (25) {"position":"1175,550","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/7e7f2e07-9e5a-47c9-9387-7ef710110690/optimize%20(34).png-256-preview@225x300.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/s80rrNU"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Оперативная память Vengeance LPX DDR4 2666 МГц 2x8 ГБ для ПК
+Цена - 4 937₽ (за 1шт), 123 425₽ (за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Накопитель (SSD) (25)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Оперативная память (RAM) (бюдж) {"position":"1500,950","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/9a56c724-1948-4d13-abb6-2fb0eba0570f/optimize%20(10).png-256-preview@500x500.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/RPBClNO"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Оперативная память Kingston DDR4 16Gb (2x8Gb) 3200MHz pc-25600 FURY Beast Black CL16 1.35V (KF432C16BBK2/16-SP)
+Цена - 4 455 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Видеокарта (GPU) (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Охлаждение {"position":"1650,700","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/8d86321d-cc2c-47ac-bc04-d877a7e3b3a2/3934724_1.png-256-preview@500x375.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/czycNdO"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Noctua NH-U12S DX-3647, Кулер для процессора
+Цена - 41 108 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Меню->Да, вперед!]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Охлаждение (25) {"position":"725,300","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/c8292105-0eeb-4e7a-9e04-d557042a4025/optimize%20(18).png-256-preview@418x494.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/TC6r2r5"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Устройство охлаждения(кулер) ID-Cooling SE-224-XTS Ret
+Цена - 2 663 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Меню->Купить сборку 25 компьютеров]]
+(text-colour:green)[[Итого]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Охлаждение (бюдж) {"position":"1025,850","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/c8292105-0eeb-4e7a-9e04-d557042a4025/optimize%20(18).png-256-preview@418x494.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/TC6r2r5"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Устройство охлаждения(кулер) ID-Cooling SE-224-XTS Ret
+Цена - 2 663 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Покупка комплектующих бюджетного сигмента]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Переферия для 25 компьютеров {"position":"750,875","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  (text-colour:green)[[Мышь (25)]]
+  (text-colour:green)[[Клавиатура (25)]]
+  (text-colour:green)[[Монитор (25)]]
+ 
+
+
+:: Переферия для бюджетного компьютера {"position":"475,900","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  (text-colour:green)[[Мышь (бюдж)]]
+  (text-colour:green)[[Клавиатура (бюдж)]]
+  (text-colour:green)[[Монитор (бюдж)]]
+ 
+
+
+:: Переферия для рекламного компьютера {"position":"450,450","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  (text-colour:green)[[Мышь]]
+  (text-colour:green)[[Клавиатура]]
+  (text-colour:green)[[Монитор]]
+ 
+
+
+:: Покупка комплектующих бюджетного сигмента {"position":"1300,875","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  (text-colour:green)[[Процессор (CPU) (бюдж)]]
+  (text-colour:green)[[Материнская плата (Motherboard) (бюдж)]]
+  (text-colour:green)[[Оперативная память (RAM) (бюдж)]]
+  (text-colour:green)[[Видеокарта (GPU) (бюдж)]]
+  (text-colour:green)[[Накопитель (SSD) (бюдж)]]
+  (text-colour:green)[[Накопитель (HDD) (бюдж)]]
+  (text-colour:green)[[Блок питания (PSU) (бюдж)]]
+  (text-colour:green)[[Корпус (бюдж)]]
+  (text-colour:green)[[Охлаждение (бюдж)]]
+  (text-colour:green)[[Меню->Да, вперед!]]
+
+
+:: Покупка комплектующих для рекламного сигмента {"position":"1900,650","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+  
+  (text-colour:green)[[Процессор (CPU)]]
+  (text-colour:green)[[Материнская плата (Motherboard)]]
+  (text-colour:green)[[Оперативная память (RAM)]]
+  (text-colour:green)[[Видеокарта (GPU)]]
+  (text-colour:green)[[Накопитель (SSD)]]
+    (text-colour:green)[[Накопитель (HDD)]]
+  (text-colour:green)[[Блок питания (PSU)]]
+  (text-colour:green)[[Корпус]]
+  (text-colour:green)[[Охлаждение]]
+  (text-colour:green)[[Меню->Да, вперед!]]
+
+
+:: Процессор (CPU) {"position":"2175,575","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/b79dbb8a-fbea-437d-9284-6539e4148805/8e1e7fe130cf471ca70a86c5ad0262c9.png-256-preview@400x400.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/eDSpFfA"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Intel Core i5-13600K — десктопный процессор от компании Intel для сокета LGA-1700, который имеет 14 ядер и 20 потоков.
+Цена - 31 700 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Материнская плата (Motherboard)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Процессор (CPU) (25) {"position":"1125,225","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/c43a4c83-2fcd-4fe7-8460-97a310b42367/59ehbaOx2Gg.png-256-preview@500x300.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://market.yandex.ru/cc/XV9HXcm"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[IПроцессор Intel Core i5 10400F OEM, LGA 1200,6 ядер и 12 потоков
+Цена - 10 890 ₽ (за 1шт), 272 250₽ (за 25шт)]
+_____________________________________________________________________________________________
+(text-colour:green)[[Материнская плата (Motherboard) (25)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Процессор (CPU) (бюдж) {"position":"1425,675","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 200px; 
+  }
+</style>
+<img src="https://yougile.com/user-data/4d56c309-5200-4acb-8c20-b503ec00e006/%D1%80%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C.png-256-preview@300x300.png" id="active-image" style="cursor: pointer;" />
+<script>
+document.getElementById("active-image").onclick = function() {
+    window.location.href = "https://pigmentarius.ru/catalog/kompyuternye_komplektuyushchie/protsessory/18059/?yclid=17365852621790773247"; 
+};
+</script>
+<div class="text">
+<div class="transparent-box">
+<p>
+[Процессор AMD Ryzen 5 5600G OEM AM4 (100-000000252) 6 x 3.9/4.4Hgz
+Цена - 13 216 ₽]
+_____________________________________________________________________________________________
+(text-colour:green)[[Материнская плата (Motherboard) (бюдж)]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: Таблица доп. устройств {"position":"575,725","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt= style= "width: 400px; height: aute; top:100px;"/>
+
+  <div class="transparent-box">
+  
+  (text-colour:green)[[Переферия для рекламного компьютера]]
+  (text-colour:green)[[Переферия для бюджетного компьютера]]
+  (text-colour:green)[[Переферия для 25 компьютеров]]
+  (text-colour:green) [[Меню->Да, вперед!]]
+
+
+:: Финансы {"position":"1300,275","size":"100,100"}
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-right: 15px; /*  */
+  }
+</style>
+
+<div class="container">
+ <img class="image" src="https://yougile.com/user-data/744a51b0-c7cc-4dd1-9388-417a7472a880/krytoy%20chuvak.png-256-preview@450x470.png" alt="Ваше изображение" style="width: 500px; height: aute; top:5px;"/>
+  <div class="text">
+  <div class="transparent-box">
+
+<p>(text-colour:white)[Добрый день ! Изначально для закупки компьютерного оборудования было выделено 600 000 рублей. Однако, при детальном рассмотрении выяснилось, что за эти деньги можно приобрести лишь базовый компьютер, который не соответствует профессиональным требованиям в области информационной безопасности. Более того, “средний” ценовой сегмент также неприемлем из-за урезанных комплектующих. Только “высокий” сегмент, хоть и превышает бюджет, обеспечивает необходимую производительность и функциональность для обучения и профессиональной деятельности в информационной безопасности. 
+Цены на оборудование:
+Бюджетный сигмент - 68 258 ₽ (без переферии), 79 523 ₽ (с переферией) ;
+25 компьютеров для учащихся - 989 950 ₽ (без перерферии), 1 342 200₽(спереферией)
+Для рекламного сегмента - 175 787 ₽ (без переферии), 204 034 ₽ (с переферией) ;
+Это цены без сборки и доставки. Очевидно, что для подготовки квалифицированных специалистов “высокий” сегмент является единственным подходящим вариантом, и экономия на образовании в данном случае недопустима.]
+_____________________________________________________________________________________________
+(text-colour:green)[[Покупка комплектующих для рекламного сигмента]]
+(text-colour:green)[[Покупка комплектующих бюджетного сигмента]]
+(text-colour:green)[[Купить сборку 25 компьютеров]]
+(text-colour:green)[[Таблица доп. устройств]]
+(text-colour:green)[[Итог]]
+(text-colour:green)[[Уйти->Закрыть ]]
+</p>
+
+
+:: закрыть {"position":"1975,375","size":"100,100"}
+<script>
+window.close();
+</script>
+
+
+:: StoryStylesheet [stylesheet]
+tw-story
+{
+    background-image: url(https://i.ytimg.com/vi/NP97IQ_xNtg/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
